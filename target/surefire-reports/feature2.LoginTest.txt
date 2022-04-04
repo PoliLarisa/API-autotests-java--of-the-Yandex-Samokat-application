@@ -1,0 +1,71 @@
+-------------------------------------------------------------------------------
+Test set: feature2.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 2.576 s <<< FAILURE! - in feature2.LoginTest
+validateWithWrongLogin(feature2.LoginTest)  Time elapsed: 0.219 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Учетная запись не найдена]> but was:<[Not Found.]>
+	at feature2.LoginTest.validateWithWrongLogin(LoginTest.java:86)
+
+validateWithWrongLogin(feature2.LoginTest)  Time elapsed: 0.219 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature2.LoginTest.teardown(LoginTest.java:29)
+
+validateLoginTest(feature2.LoginTest)  Time elapsed: 0.713 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature2.LoginTest.validateLoginTest(LoginTest.java:49)
+
+validateLoginTest(feature2.LoginTest)  Time elapsed: 0.713 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature2.LoginTest.teardown(LoginTest.java:29)
+
+isValidatedLoginTest(feature2.LoginTest)  Time elapsed: 0.755 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature2.LoginTest.isValidatedLoginTest(LoginTest.java:37)
+
+isValidatedLoginTest(feature2.LoginTest)  Time elapsed: 0.755 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature2.LoginTest.teardown(LoginTest.java:29)
+
+validateWithoutLoginTest(feature2.LoginTest)  Time elapsed: 0.565 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at feature2.LoginTest.validateWithoutLoginTest(LoginTest.java:60)
+
+validateWithoutLoginTest(feature2.LoginTest)  Time elapsed: 0.565 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature2.LoginTest.teardown(LoginTest.java:29)
+
+validateWithoutPasswordTest(feature2.LoginTest)  Time elapsed: 0.27 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at feature2.LoginTest.validateWithoutPasswordTest(LoginTest.java:71)
+
+validateWithoutPasswordTest(feature2.LoginTest)  Time elapsed: 0.294 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature2.LoginTest.teardown(LoginTest.java:29)
+

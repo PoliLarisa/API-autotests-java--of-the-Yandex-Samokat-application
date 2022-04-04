@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: feature1.CreatingCourierTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 38.647 s <<< FAILURE! - in feature1.CreatingCourierTest
+creatingCourierWithoutPasswordTest(feature1.CreatingCourierTest)  Time elapsed: 32.446 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.teardown(CreatingCourierTest.java:25)
+
+secondCourierNotBeCreatedTest(feature1.CreatingCourierTest)  Time elapsed: 1.394 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.secondCourierNotBeCreatedTest(CreatingCourierTest.java:83)
+
+secondCourierNotBeCreatedTest(feature1.CreatingCourierTest)  Time elapsed: 1.394 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.teardown(CreatingCourierTest.java:25)
+
+isCreatingCourierTest(feature1.CreatingCourierTest)  Time elapsed: 1.383 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.isCreatingCourierTest(CreatingCourierTest.java:33)
+
+isCreatingCourierTest(feature1.CreatingCourierTest)  Time elapsed: 1.383 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.teardown(CreatingCourierTest.java:25)
+
+creatingCourierWithoutLoginTest(feature1.CreatingCourierTest)  Time elapsed: 0.782 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.teardown(CreatingCourierTest.java:25)
+
+checkingCourierIdTest(feature1.CreatingCourierTest)  Time elapsed: 0.987 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.checkingCourierIdTest(CreatingCourierTest.java:44)
+
+checkingCourierIdTest(feature1.CreatingCourierTest)  Time elapsed: 0.987 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.teardown(CreatingCourierTest.java:25)
+
