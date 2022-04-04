@@ -1,0 +1,9 @@
+couriers\CourierClient.class
+couriers\ScooterRestClient.class
+couriers\Courier.class
+couriers\CourierCredentials.class
+couriers\Courier$CourierBuilder.class
+couriers\CourierCredentials$CourierCredentialsBuilder.class
+logins\LoginClient.class
+orders\Order.class
+orders\OrderClient.class

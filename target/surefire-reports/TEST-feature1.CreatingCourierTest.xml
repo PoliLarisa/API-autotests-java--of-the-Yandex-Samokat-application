@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="feature1.CreatingCourierTest" time="38.647" tests="8" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Kosty\Sprint_03\target\test-classes;C:\Users\Kosty\Sprint_03\target\classes;C:\Users\Kosty\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.1\jackson-databind-2.13.1.jar;C:\Users\Kosty\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar;C:\Users\Kosty\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.1\jackson-core-2.13.1.jar;C:\Users\Kosty\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Kosty\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Kosty\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Kosty\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Kosty\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Kosty\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Kosty\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Kosty\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Kosty\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Kosty\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Kosty\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Kosty\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Kosty\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Kosty\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Kosty\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Kosty\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Kosty\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Kosty\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Kosty\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Kosty\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Kosty\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\Kosty\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\Kosty\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Kosty\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\Kosty\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\Kosty\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\Kosty\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\Kosty\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.14_10\bin"/>
+    <property name="sun.java.command" value="C:\Users\Kosty\AppData\Local\Temp\surefire8064508576093787050\surefirebooter5233904175327628017.jar C:\Users\Kosty\AppData\Local\Temp\surefire8064508576093787050 2022-04-04T19-34-06_180-jvmRun1 surefire1273285425614190893tmp surefire_010363084231026629546tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Kosty\Sprint_03\target\test-classes;C:\Users\Kosty\Sprint_03\target\classes;C:\Users\Kosty\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.1\jackson-databind-2.13.1.jar;C:\Users\Kosty\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar;C:\Users\Kosty\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.1\jackson-core-2.13.1.jar;C:\Users\Kosty\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Kosty\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Kosty\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Kosty\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Kosty\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Kosty\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Kosty\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Kosty\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Kosty\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Kosty\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Kosty\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Kosty\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Kosty\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Kosty\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Kosty\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Kosty\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Kosty\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Kosty\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Kosty\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Kosty\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Kosty\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\Kosty\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\Kosty\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Kosty\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\Kosty\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\Kosty\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\Kosty\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\Kosty\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="C:\Users\Kosty\Sprint_03\target/allure-results"/>
+    <property name="user.home" value="C:\Users\Kosty"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-02-08"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.14_10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Kosty\Sprint_03"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kosty\AppData\Local\Temp\surefire8064508576093787050\surefirebooter5233904175327628017.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14.1+10-LTS"/>
+    <property name="user.name" value="Лара"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.14.10.1"/>
+    <property name="localRepository" value="C:\Users\Kosty\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kosty\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.version" value="11.0.14.1"/>
+    <property name="user.dir" value="C:\Users\Kosty\Sprint_03"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.14_10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk11.0.14_10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Kosty\Downloads\allure-commandline-2.15.0\allure-2.15.0\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.14.1+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="creatingCourierWithoutPasswordTest" classname="feature1.CreatingCourierTest" time="32.446">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.teardown(CreatingCourierTest.java:25)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+Access-Control-Allow-Origin: *
+Content-Length: 114
+Content-Type: application/json; charset=utf-8
+Date: Mon, 04 Apr 2022 16:34:44 GMT
+ETag: W/"72-AUDx41VLe1HSztSRMybiiyHwcKY"
+Set-Cookie: _yasc=3Rt6OIGHQ7wL1ti8NocMtJwvfVBfZmYjPmjUEBfEH16DSw==; domain=.praktikum-services.ru; path=/; expires=Wed, 04-May-2022 16:34:44 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649090084019183-16876957066377088576
+
+{
+    "code": 400,
+    "message": "Недостаточно данных для создания учетной записи"
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="secondCourierNotBeCreatedTest" classname="feature1.CreatingCourierTest" time="1.394">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.secondCourierNotBeCreatedTest(CreatingCourierTest.java:83)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Mon, 04 Apr 2022 16:34:51 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=Yz4IXoQ4bzSSgnBIZU0OISevd+Liv0cQaQsb2/gbT8rTcA==; domain=.praktikum-services.ru; path=/; expires=Wed, 04-May-2022 16:34:51 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649090091462496-6860647210885430038
+
+{
+    "ok": true
+}
+HTTP/1.1 404 Not Found
+Access-Control-Allow-Origin: *
+Content-Length: 35
+Content-Type: application/json; charset=utf-8
+Date: Mon, 04 Apr 2022 16:34:52 GMT
+ETag: W/"23-Yvz185z7FSkcImycPnr136En0mc"
+Set-Cookie: _yasc=upCSq0k9JZQWX99/oZAvRakpnCTtKjfLNZpYt/gCnKqHTQ==; domain=.praktikum-services.ru; path=/; expires=Wed, 04-May-2022 16:34:52 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649090092131587-11002650866400283893
+
+{
+    "code": 404,
+    "message": "Not Found."
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="secondCourierNotBeCreatedTest" classname="feature1.CreatingCourierTest" time="1.394">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.teardown(CreatingCourierTest.java:25)
+]]></failure>
+  </testcase>
+  <testcase name="isCreatingCourierTest" classname="feature1.CreatingCourierTest" time="1.383">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.isCreatingCourierTest(CreatingCourierTest.java:33)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Mon, 04 Apr 2022 16:34:52 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=OqJmFuV2Ke6gnCp59JVnrsyj5+xeRrZ1DApnYkghVXYGnw==; domain=.praktikum-services.ru; path=/; expires=Wed, 04-May-2022 16:34:52 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649090092600663-3680220350721536865
+
+{
+    "ok": true
+}
+HTTP/1.1 404 Not Found
+Access-Control-Allow-Origin: *
+Content-Length: 35
+Content-Type: application/json; charset=utf-8
+Date: Mon, 04 Apr 2022 16:34:53 GMT
+ETag: W/"23-Yvz185z7FSkcImycPnr136En0mc"
+Set-Cookie: _yasc=FVpaCryQSzeOGZaGNuX0jtb8+x2QerrXOX71jlxYxbJh6w==; domain=.praktikum-services.ru; path=/; expires=Wed, 04-May-2022 16:34:53 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649090093176099-938073352230734158
+
+{
+    "code": 404,
+    "message": "Not Found."
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="isCreatingCourierTest" classname="feature1.CreatingCourierTest" time="1.383">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.teardown(CreatingCourierTest.java:25)
+]]></failure>
+  </testcase>
+  <testcase name="creatingCourierWithoutLoginTest" classname="feature1.CreatingCourierTest" time="0.782">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.teardown(CreatingCourierTest.java:25)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+Access-Control-Allow-Origin: *
+Content-Length: 114
+Content-Type: application/json; charset=utf-8
+Date: Mon, 04 Apr 2022 16:34:54 GMT
+ETag: W/"72-AUDx41VLe1HSztSRMybiiyHwcKY"
+Set-Cookie: _yasc=RqFyugisGyJExuUUoZLJfC0OWagJGwsd0CUCbkgGe22RXg==; domain=.praktikum-services.ru; path=/; expires=Wed, 04-May-2022 16:34:53 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649090093990765-460918671421960659
+
+{
+    "code": 400,
+    "message": "Недостаточно данных для создания учетной записи"
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="checkingCourierIdTest" classname="feature1.CreatingCourierTest" time="0.987">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.checkingCourierIdTest(CreatingCourierTest.java:44)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Mon, 04 Apr 2022 16:34:54 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=0wtl2YyBWJXXK+k4J2P5Gs8MXgmFnKVklZWsoRzvjYwz5g==; domain=.praktikum-services.ru; path=/; expires=Wed, 04-May-2022 16:34:54 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649090094812131-18030538734471339974
+
+{
+    "ok": true
+}
+HTTP/1.1 404 Not Found
+Access-Control-Allow-Origin: *
+Content-Length: 35
+Content-Type: application/json; charset=utf-8
+Date: Mon, 04 Apr 2022 16:34:55 GMT
+ETag: W/"23-Yvz185z7FSkcImycPnr136En0mc"
+Set-Cookie: _yasc=5u06Hp2M+M0x/k6NeeA11u6HrtBnWwjJ2SvK4joLQi6Qmw==; domain=.praktikum-services.ru; path=/; expires=Wed, 04-May-2022 16:34:55 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649090095105023-8333579550841027740
+
+{
+    "code": 404,
+    "message": "Not Found."
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="checkingCourierIdTest" classname="feature1.CreatingCourierTest" time="0.987">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at feature1.CreatingCourierTest.teardown(CreatingCourierTest.java:25)
+]]></failure>
+  </testcase>
+</testsuite>

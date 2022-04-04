@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: feature3.OrderWithParameterizedTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in feature3.OrderWithParameterizedTest
+initializationError(feature3.OrderWithParameterizedTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: can't parse argument number: BLACK
+Caused by: java.lang.NumberFormatException: For input string: "BLACK"
+
